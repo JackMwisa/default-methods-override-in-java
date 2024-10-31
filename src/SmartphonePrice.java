@@ -1,4 +1,4 @@
-package Day14;
+package src;
 
 public class SmartphonePrice implements Cloneable {
 

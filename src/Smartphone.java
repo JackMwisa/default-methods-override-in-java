@@ -1,3 +1,5 @@
+package src;
+
 import java.util.Objects;
 
 public class Smartphone implements Cloneable {
@@ -9,7 +11,7 @@ public class Smartphone implements Cloneable {
     private SmartphonePrice retailPrice;
 
     // Constructor
-    public Smartphone(String brandName, String modelName, int batteryCapacitymAh, 
+    public Smartphone(String brandName, String modelName, int batteryCapacitymAh,
                       SmartphonePrice producerPrice, SmartphonePrice retailPrice) {
         this.brandName = brandName;
         this.modelName = modelName;
